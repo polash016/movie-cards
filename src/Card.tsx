@@ -24,8 +24,8 @@ const Card = () => {
     fetch('https://api.tvmaze.com/search/shows?q=all')
     .then(res => res.json())
     .then(data => setShows(data))
-    console.log(shows)
   }, [])
+  console.log(shows)
     return (
         <div className='w-[90%] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
     {
