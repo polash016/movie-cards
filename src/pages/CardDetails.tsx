@@ -2,18 +2,12 @@ import { useLoaderData } from "react-router-dom";
 import {
     Button,
   } from "@material-tailwind/react";
-import { MovieType } from "./Card";
+import { MovieType } from "../Component/Card";
 
 
 const CardDetails = () => {
     const showDetails = useLoaderData() as MovieType;
     console.log(showDetails)
-    const cleanDescription = () => {
-        const element = document.createElement('div');
-        element.innerHTML = showDetails?.summary
-        return element.innerText || element.textContent
-    }
-    const summary = cleanDescription()
      
     return (
         <div className="w-[90%] mx-auto text-center border-2 rounded mt-8">

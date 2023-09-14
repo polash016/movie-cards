@@ -6,8 +6,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Card from './Card.js';
-import CardDetails from './CardDetails.js';
+import Card from './Component/Card.js';
+import CardDetails from './pages/CardDetails.js';
 
 
 
