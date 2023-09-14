@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable no-undef */
 const withMT = require("@material-tailwind/react/utils/withMT");
 const plugin = require('tailwindcss/plugin')
  
